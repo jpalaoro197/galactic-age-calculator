@@ -5,7 +5,7 @@ export default class Age {
   };
 
   mercuryEquation() {
-    return Math.round(this.userAge * .24)
+    return Math.round(this.userAge / .24)
   }
 };
 
