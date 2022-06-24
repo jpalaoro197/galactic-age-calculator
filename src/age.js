@@ -15,6 +15,10 @@ export default class Age {
   marsEquation() {
     return Math.round(this.userAge / 1.88)
   }
+
+  jupiterEquation() {
+    return Math.round(this.userAge / 11.86)
+  }
 };
 
 
