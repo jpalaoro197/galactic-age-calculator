@@ -1,10 +1,10 @@
 export default class Age {
-  constructor(userAge, mercuryAge, venusAge, marsAge, jupiterAge ) {
+  constructor(userAge, averageLifeExpectancy ) {
   this.userAge = userAge;
-  this.mercuryAge = mercuryAge;
-  this.venusAge = venusAge;
-  this.marsAge = marsAge;
-  this.jupiterAge = jupiterAge;
+  this.averageLifeExpectancy = averageLifeExpectancy;
   };
-  
+
+  mercuryEquation() {
+    (this.mercuryAge = (this.userAge * .24))
+  }
 };
