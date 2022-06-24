@@ -8,15 +8,17 @@ describe('age', ()=> {
     expect(age.averageLifeExpectancy).toEqual(27);
   })
 
-  test('should make mercury age = .24 of user age', () => {
-    let mercuryAge = new Age(25, 0);
-  expect(mercuryAge.mercuryEquation()).toEqual(6, 0);
+  test('should return number = user age divided by .24 and rounded', () => {
+    let mercuryAge = new Age(33, 0);
+  expect(mercuryAge.mercuryEquation()).toEqual(138, 0);
   });
 
-  test('should always return a whole number ', () => {
-    let mercuryAge = new Age(26, 0);
-    expect(mercuryAge.mercuryEquation()).toEqual(6, 0);
+  test('should return a whole number = .62 of user age', () => {
+    let venusAge = new Age(25, 0);
+    expect(venusAge.venusEquation()).toEqual(16)
   })
+
+
 });
 
 
