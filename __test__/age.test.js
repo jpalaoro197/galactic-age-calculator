@@ -9,13 +9,13 @@ describe('age', ()=> {
   })
 
   test('should return number = user age divided by .24 and rounded', () => {
-    let mercuryAge = new Age(33, 0);
-  expect(mercuryAge.mercuryEquation()).toEqual(138, 0);
+    let mercuryAge = new Age(25, 0);
+  expect(mercuryAge.mercuryEquation()).toEqual(104, 0);
   });
 
-  test('should return a whole number = .62 of user age', () => {
+  test('should return a whole number = user age divided by .62 and rounded', () => {
     let venusAge = new Age(25, 0);
-    expect(venusAge.venusEquation()).toEqual(16)
+    expect(venusAge.venusEquation()).toEqual(40)
   })
 
 
