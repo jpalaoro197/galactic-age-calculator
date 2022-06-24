@@ -18,7 +18,10 @@ describe('age', ()=> {
     expect(venusAge.venusEquation()).toEqual(40)
   })
 
-
+  test('should return a whole number = user age divided by 1.88 and rounded', () => {
+    let marsAge = new Age(25, 0);
+    expect(marsAge.marsEquation()).toEqual(13)
+  })
 });
 
 
