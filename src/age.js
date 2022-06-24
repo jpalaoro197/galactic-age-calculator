@@ -11,6 +11,10 @@ export default class Age {
   venusEquation() {
     return Math.round(this.userAge / .62)
   }
+
+  marsEquation() {
+    return Math.round(this.userAge / 1.88)
+  }
 };
 
 
