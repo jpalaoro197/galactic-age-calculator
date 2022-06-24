@@ -9,7 +9,8 @@ describe('age', ()=> {
   })
 
   test('should make mercury age = .24 of user age', () => {
-  let mercuryAgeTest = new Age(25, 0);
+  let mercuryAge = new Age(25, 0);
+  expect(mercuryAge.mercuryEquation()).toEqual(6, 0);
  
   });
 });
