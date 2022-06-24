@@ -7,5 +7,11 @@ export default class Age {
   mercuryEquation() {
     return Math.round(this.userAge / .24)
   }
+
+  venusEquation() {
+    return Math.round(this.userAge / .62)
+  }
 };
+
+
 
