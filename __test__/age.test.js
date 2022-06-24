@@ -22,6 +22,11 @@ describe('age', ()=> {
     let marsAge = new Age(25, 0);
     expect(marsAge.marsEquation()).toEqual(13)
   })
+
+  test('should return a whole number = user age divided by 11.86', () => {
+    let jupiterAge = new Age(25, 0);
+    expect(jupiterAge.jupiterEquation()).toEqual(2)
+  })
 });
 
 
