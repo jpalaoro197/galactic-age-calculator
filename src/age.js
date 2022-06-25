@@ -23,6 +23,10 @@ export default class Age {
   mercuryYearsLeft() {
     return Math.round((this.averageLifeExpectancy - this.userAge) / .24)
   }
+
+  venusYearsLeft() {
+    return Math.round((this.averageLifeExpectancy - this.userAge) / .62)
+  }
 };
 
 
