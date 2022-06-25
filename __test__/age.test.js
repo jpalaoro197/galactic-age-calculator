@@ -37,6 +37,11 @@ describe('age', ()=> {
     let venusAge = new Age(25, 94);
     expect(venusAge.venusYearsLeft()).toEqual(111)
   })
+
+  test('should return a whole number = averageLifeExpectancy minus userAge divided by 1.88 and rounded', () => {
+    let marsAge = new Age(25, 94);
+    expect(marsAge.marsYearsLeft()).toEqual(37)
+  })
 });
 
 
