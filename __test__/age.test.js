@@ -27,6 +27,11 @@ describe('age', ()=> {
     let jupiterAge = new Age(25, 0);
     expect(jupiterAge.jupiterEquation()).toEqual(2)
   })
+
+  test('should return a whole number = averageLifeExpectancy minus userAge divided by .24 and rounded', () => {
+    let mercuryAge = new Age(25, 94);
+    expect(mercuryAge.mercuryYearsLeft()).toEqual(287)
+  })
 });
 
 
