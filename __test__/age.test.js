@@ -30,7 +30,12 @@ describe('age', ()=> {
 
   test('should return a whole number = averageLifeExpectancy minus userAge divided by .24 and rounded', () => {
     let mercuryAge = new Age(25, 94);
-    expect(mercuryAge.mercuryYearsLeft()).toEqual(287)
+    expect(mercuryAge.mercuryYearsLeft()).toEqual(288)
+  })
+
+  test('should return a whole number = averageLifeExpectancy minus userAge divided by .62 and rounded', () => {
+    let venusAge = new Age(25, 94);
+    expect(venusAge.venusYearsLeft()).toEqual(111)
   })
 });
 
