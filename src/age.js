@@ -27,6 +27,10 @@ export default class Age {
   venusYearsLeft() {
     return Math.round((this.averageLifeExpectancy - this.userAge) / .62)
   }
+
+  marsYearsLeft() {
+    return Math.round((this.averageLifeExpectancy - this.userAge) / 1.88)
+  }
 };
 
 
