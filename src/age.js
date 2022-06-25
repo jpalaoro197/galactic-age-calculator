@@ -31,6 +31,10 @@ export default class Age {
   marsYearsLeft() {
     return Math.round((this.averageLifeExpectancy - this.userAge) / 1.88)
   }
+
+  jupiterYearsLeft() {
+    return Math.round((this.averageLifeExpectancy - this.userAge) / 11.86)
+  }
 };
 
 
