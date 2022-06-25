@@ -19,6 +19,10 @@ export default class Age {
   jupiterEquation() {
     return Math.round(this.userAge / 11.86)
   }
+
+  mercuryYearsLeft() {
+    return Math.round((this.averageLifeExpectancy - this.userAge) / .24)
+  }
 };
 
 
